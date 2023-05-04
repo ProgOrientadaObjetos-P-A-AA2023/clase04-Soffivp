@@ -10,7 +10,7 @@ public class Ejecutor {
     public static void main(String[] args) {
         // Se crea un objeto haciendo referencia al constructor sin 
         // argumentos
-        FacturaTelefonica fac = new FacturaTelefonica();
+        FacturaTelefonica fac = new FacturaTelefonica("23565221",470,0.56);
         // se llama al método que calcula el valor de la factura
         fac.calcularValorFactura(); 
         
